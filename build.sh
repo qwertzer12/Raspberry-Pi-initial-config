@@ -9,7 +9,7 @@ sudo apt update && sudo apt upgrade -y
 
 # Install necessary packages
 echo "Installing required packages..."
-sudo apt install -y gcc git gh
+sudo apt install -y gcc git gh ninja-build gettext cmake curl build-essential
 
 # Go install
 echo "Installing Go"
